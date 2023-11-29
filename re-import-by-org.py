@@ -109,7 +109,6 @@ for org in orgs:
     if val == 'q':
         exit()
     if val == 's':
-        print (org_id)
         continue
 
     integration_id = get_integration_id(org_id)
